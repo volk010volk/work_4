@@ -1,0 +1,23 @@
+.block {
+    /* background-color: pink; */
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    border-top-color: blue;
+    border-right-color: yellow;
+    border-bottom-color: red;
+    border-left-color: green;
+    transform: translate(20px, 20px);
+    transform: rotate(180deg);
+    transition-property: transform;
+    transition-duration: 1s;
+}
+
+.point {
+    width: 2px;
+    height: 2px;
+    background-color: #000;
+    position: relative;
+    left:  50%;
+    right: 50%;
+}

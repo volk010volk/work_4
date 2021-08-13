@@ -1,0 +1,21 @@
+a {
+    text-decoration: none;
+    font-family: sans-serif;
+    border: none;
+    background-color: royalblue;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+a:hover {
+    background-color: salmon;
+    font-size: 40px;
+    transition: 1s;
+    /* transition: all 0.5s ease 0s; */
+
+    transition-property: background-color, font-size;
+    transition-duration: 1.5s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+}
